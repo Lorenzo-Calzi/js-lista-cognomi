@@ -1,6 +1,6 @@
 //1. chiedi all’utente il cognome
 var lastName = prompt('Inserisci il tuo cognome')
-console.log(lastName);
+console.log('Il cognome inserito è: ' + lastName);
 
 var list = ["Rossi", "Ferrari", "Gallo", "Bianchi"];
 console.log('La lista originale è: ' + list);
