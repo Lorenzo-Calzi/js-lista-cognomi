@@ -13,6 +13,10 @@ console.log('La nuova lista è: ' + newList);
 
 //3. stampa la lista ordinata alfabeticamente
 newList.sort();
-console.log(newList);
+console.log('La lista ordinata è: ' + newList);
 
 //4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
+for(var i = 0; i < newList.length; i++) {
+    var results = console.log((i + 1) + ' - ' + newList[i]);
+}
+
